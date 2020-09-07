@@ -4,7 +4,10 @@
     },
     "autoload": {
         "psr-4": {
-            "ThePHPWebsite\\": "src/"
+            "App\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": { "Tests\\": "tests/" }
     }
 }
