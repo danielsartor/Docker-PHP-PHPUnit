@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ThePHPWebsite;
+namespace App;
 
 class App
 {

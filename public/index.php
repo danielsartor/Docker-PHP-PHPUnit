@@ -3,7 +3,7 @@
 require_once __DIR__
     . '/../vendor/autoload.php';
 
-use ThePHPWebsite\App;
+use App\App;
 
 $app = new App();
 
