@@ -4,10 +4,10 @@
 Default project for running PHP and PHPUnit on Docker.
 
 ## Alias
-- `alias dcr='docker-compose run'`  
-_This is not mandatory, but in case you use it, you can run "docker-compose run" commands just by typing "dcr"_
+- `alias phpunit=./vendor/bin/phpunit`
+_This is not mandatory, but in case you use it, you can run "./vendor/bin/phpunit" commands just by typing "phpunit"_
 
 ## Commands
-- Update dependencies: `docker-compose run composer update`
-- Startup the project: `docker-compose up -d fpm nginx`
-- Run Tests: `docker-compose run phpunit`
+- Update dependencies: `composer update`
+- Startup the project: `docker-compose up -d`
+- Run Tests: `phpunit`
