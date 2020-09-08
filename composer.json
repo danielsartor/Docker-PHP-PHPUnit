@@ -9,5 +9,9 @@
     },
     "autoload-dev": {
         "psr-4": { "Tests\\": "tests/" }
+    },
+    "require": {
+        "phpspec/prophecy": "^1.11",
+        "phpspec/prophecy-phpunit": "^2.0"
     }
 }
