@@ -16,6 +16,14 @@
         <testsuite name="default">
             <directory suffix="Test.php">tests</directory >
         </testsuite>
+
+        <testsuite name="book">
+            <directory>tests/Unit/Book</directory>
+        </testsuite>
+
+        <testsuite name="course">
+            <directory>tests/Unit/Course</directory>
+        </testsuite>
     </testsuites>
 
     <coverage processUncoveredFiles="true">

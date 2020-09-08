@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Unit;
+namespace Tests\Unit\Course;
 
 use App\BMICalculator;
 use \PHPUnit\Framework\TestCase;
